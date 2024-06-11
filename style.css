@@ -1,0 +1,27 @@
+.base{
+    display: flex;
+    border-color: black;
+    margin-left: 12px;
+    border-color: black;
+    border-style: solid;
+}
+.base:nth-child(odd) div:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.base:nth-child(odd) div:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.base:nth-child(even) div:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.base:nth-child(even) div:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}

@@ -1,0 +1,25 @@
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.upper {
+  background-color: blue;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+    color: white;
+    padding-left: 40px;
+    
+}
+td{
+    padding-left: 40px;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    height: 40px;
+}
